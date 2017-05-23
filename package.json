@@ -1,6 +1,6 @@
 {
   "name": "jest-slack-reporter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Send custom Slack messages as a Jest test results processor.",
   "main": "index.js",
   "scripts": {
