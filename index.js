@@ -3,7 +3,7 @@ const request = require('request');
 
 module.exports = testResults => {
   const packagedData = readPkg.sync(process.cwd());
-  const config = packagedData.jestJsonReporter || {};
+  const config = packagedData.jestSlackReporter || {};
 
   const webhookUrl = config.webhookUrl;
   if (!webhookUrl) {
