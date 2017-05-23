@@ -23,5 +23,9 @@
     "email": "vall3y@gmail.com",
     "name": "Guy Zissman"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "read-pkg": "^2.0.0",
+    "request": "^2.81.0"
+  }
 }
